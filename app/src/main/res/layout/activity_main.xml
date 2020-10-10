@@ -2,6 +2,7 @@
 <androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
@@ -17,11 +18,13 @@
 
     <LinearLayout
         android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:orientation="vertical"
-        android:layout_height="match_parent" android:paddingLeft="24dp"
-        android:paddingRight="16dp"
+        android:paddingLeft="24dp"
         android:paddingTop="100dp"
-        android:paddingBottom="16dp" tools:context=".MainActivity">
+        android:paddingRight="16dp"
+        android:paddingBottom="16dp"
+        tools:context=".MainActivity">
 
         <TextView
             android:layout_width="wrap_content"
@@ -30,19 +33,26 @@
 
 
         <EditText
+            android:id="@+id/editTextName"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/editTextName" />
+            android:layout_height="wrap_content" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Posisi" />
 
-        <EditText
+<!--        <EditText-->
+<!--            android:id="@+id/editTextDesg"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content" />-->
+
+        <Spinner
+            android:id="@+id/spinnerPosisi"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/editTextDesg" />
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:layout_height="wrap_content" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -50,9 +60,9 @@
             android:text="Gajih" />
 
         <EditText
+            android:id="@+id/editTextSalary"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/editTextSalary" />
+            android:layout_height="wrap_content" />
 
         <Button
             android:id="@+id/buttonView"
@@ -67,6 +77,5 @@
             android:text="Tambah Pegawai" />
 
     </LinearLayout>
-
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

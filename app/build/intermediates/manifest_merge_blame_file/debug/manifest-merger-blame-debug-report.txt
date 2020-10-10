@@ -1,0 +1,65 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.crudapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\Jon\AndroidStudioProjects\projectHijau\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\Jon\AndroidStudioProjects\projectHijau\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Jon\AndroidStudioProjects\projectHijau\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\Jon\AndroidStudioProjects\projectHijau\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->C:\Users\Jon\AndroidStudioProjects\projectHijau\app\src\main\AndroidManifest.xml:7:5-28:19
+14        android:allowBackup="true"
+14-->C:\Users\Jon\AndroidStudioProjects\projectHijau\app\src\main\AndroidManifest.xml:8:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.3.1] C:\Users\Jon\.gradle\caches\transforms-2\files-2.1\ae3468b444d41a56f261ecbb8448fe17\core-1.3.1\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->C:\Users\Jon\AndroidStudioProjects\projectHijau\app\src\main\AndroidManifest.xml:9:9-43
+18        android:label="@string/app_name"
+18-->C:\Users\Jon\AndroidStudioProjects\projectHijau\app\src\main\AndroidManifest.xml:10:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->C:\Users\Jon\AndroidStudioProjects\projectHijau\app\src\main\AndroidManifest.xml:11:9-54
+20        android:supportsRtl="true"
+20-->C:\Users\Jon\AndroidStudioProjects\projectHijau\app\src\main\AndroidManifest.xml:12:9-35
+21        android:testOnly="true"
+22        android:theme="@style/AppTheme" >
+22-->C:\Users\Jon\AndroidStudioProjects\projectHijau\app\src\main\AndroidManifest.xml:13:9-40
+23        <activity
+23-->C:\Users\Jon\AndroidStudioProjects\projectHijau\app\src\main\AndroidManifest.xml:14:9-23:20
+24            android:name="com.example.crudapp.MainActivity"
+24-->C:\Users\Jon\AndroidStudioProjects\projectHijau\app\src\main\AndroidManifest.xml:15:13-41
+25            android:label="@string/app_name"
+25-->C:\Users\Jon\AndroidStudioProjects\projectHijau\app\src\main\AndroidManifest.xml:16:13-45
+26            android:theme="@style/AppTheme.NoActionBar" >
+26-->C:\Users\Jon\AndroidStudioProjects\projectHijau\app\src\main\AndroidManifest.xml:17:13-56
+27            <intent-filter>
+27-->C:\Users\Jon\AndroidStudioProjects\projectHijau\app\src\main\AndroidManifest.xml:18:13-22:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->C:\Users\Jon\AndroidStudioProjects\projectHijau\app\src\main\AndroidManifest.xml:19:17-69
+28-->C:\Users\Jon\AndroidStudioProjects\projectHijau\app\src\main\AndroidManifest.xml:19:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->C:\Users\Jon\AndroidStudioProjects\projectHijau\app\src\main\AndroidManifest.xml:21:17-77
+30-->C:\Users\Jon\AndroidStudioProjects\projectHijau\app\src\main\AndroidManifest.xml:21:27-74
+31            </intent-filter>
+32        </activity>
+33        <activity android:name="com.example.crudapp.TampilSemuaPgw" />
+33-->C:\Users\Jon\AndroidStudioProjects\projectHijau\app\src\main\AndroidManifest.xml:24:9-51
+33-->C:\Users\Jon\AndroidStudioProjects\projectHijau\app\src\main\AndroidManifest.xml:24:19-49
+34        <activity android:name="com.example.crudapp.ListView" />
+34-->C:\Users\Jon\AndroidStudioProjects\projectHijau\app\src\main\AndroidManifest.xml:25:9-45
+34-->C:\Users\Jon\AndroidStudioProjects\projectHijau\app\src\main\AndroidManifest.xml:25:19-43
+35        <activity android:name="com.example.crudapp.TampilPegawai" />
+35-->C:\Users\Jon\AndroidStudioProjects\projectHijau\app\src\main\AndroidManifest.xml:26:9-50
+35-->C:\Users\Jon\AndroidStudioProjects\projectHijau\app\src\main\AndroidManifest.xml:26:19-48
+36    </application>
+37
+38</manifest>
