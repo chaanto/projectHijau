@@ -29,37 +29,36 @@
 19-->C:\Users\Jon\AndroidStudioProjects\projectHijau\app\src\main\AndroidManifest.xml:11:9-54
 20        android:supportsRtl="true"
 20-->C:\Users\Jon\AndroidStudioProjects\projectHijau\app\src\main\AndroidManifest.xml:12:9-35
-21        android:testOnly="true"
-22        android:theme="@style/AppTheme" >
-22-->C:\Users\Jon\AndroidStudioProjects\projectHijau\app\src\main\AndroidManifest.xml:13:9-40
-23        <activity
-23-->C:\Users\Jon\AndroidStudioProjects\projectHijau\app\src\main\AndroidManifest.xml:14:9-23:20
-24            android:name="com.example.crudapp.MainActivity"
-24-->C:\Users\Jon\AndroidStudioProjects\projectHijau\app\src\main\AndroidManifest.xml:15:13-41
-25            android:label="@string/app_name"
-25-->C:\Users\Jon\AndroidStudioProjects\projectHijau\app\src\main\AndroidManifest.xml:16:13-45
-26            android:theme="@style/AppTheme.NoActionBar" >
-26-->C:\Users\Jon\AndroidStudioProjects\projectHijau\app\src\main\AndroidManifest.xml:17:13-56
-27            <intent-filter>
-27-->C:\Users\Jon\AndroidStudioProjects\projectHijau\app\src\main\AndroidManifest.xml:18:13-22:29
-28                <action android:name="android.intent.action.MAIN" />
-28-->C:\Users\Jon\AndroidStudioProjects\projectHijau\app\src\main\AndroidManifest.xml:19:17-69
-28-->C:\Users\Jon\AndroidStudioProjects\projectHijau\app\src\main\AndroidManifest.xml:19:25-66
-29
-30                <category android:name="android.intent.category.LAUNCHER" />
-30-->C:\Users\Jon\AndroidStudioProjects\projectHijau\app\src\main\AndroidManifest.xml:21:17-77
-30-->C:\Users\Jon\AndroidStudioProjects\projectHijau\app\src\main\AndroidManifest.xml:21:27-74
-31            </intent-filter>
-32        </activity>
-33        <activity android:name="com.example.crudapp.TampilSemuaPgw" />
-33-->C:\Users\Jon\AndroidStudioProjects\projectHijau\app\src\main\AndroidManifest.xml:24:9-51
-33-->C:\Users\Jon\AndroidStudioProjects\projectHijau\app\src\main\AndroidManifest.xml:24:19-49
-34        <activity android:name="com.example.crudapp.ListView" />
-34-->C:\Users\Jon\AndroidStudioProjects\projectHijau\app\src\main\AndroidManifest.xml:25:9-45
-34-->C:\Users\Jon\AndroidStudioProjects\projectHijau\app\src\main\AndroidManifest.xml:25:19-43
-35        <activity android:name="com.example.crudapp.TampilPegawai" />
-35-->C:\Users\Jon\AndroidStudioProjects\projectHijau\app\src\main\AndroidManifest.xml:26:9-50
-35-->C:\Users\Jon\AndroidStudioProjects\projectHijau\app\src\main\AndroidManifest.xml:26:19-48
-36    </application>
-37
-38</manifest>
+21        android:theme="@style/AppTheme" >
+21-->C:\Users\Jon\AndroidStudioProjects\projectHijau\app\src\main\AndroidManifest.xml:13:9-40
+22        <activity
+22-->C:\Users\Jon\AndroidStudioProjects\projectHijau\app\src\main\AndroidManifest.xml:14:9-23:20
+23            android:name="com.example.crudapp.MainActivity"
+23-->C:\Users\Jon\AndroidStudioProjects\projectHijau\app\src\main\AndroidManifest.xml:15:13-41
+24            android:label="@string/app_name"
+24-->C:\Users\Jon\AndroidStudioProjects\projectHijau\app\src\main\AndroidManifest.xml:16:13-45
+25            android:theme="@style/AppTheme.NoActionBar" >
+25-->C:\Users\Jon\AndroidStudioProjects\projectHijau\app\src\main\AndroidManifest.xml:17:13-56
+26            <intent-filter>
+26-->C:\Users\Jon\AndroidStudioProjects\projectHijau\app\src\main\AndroidManifest.xml:18:13-22:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->C:\Users\Jon\AndroidStudioProjects\projectHijau\app\src\main\AndroidManifest.xml:19:17-69
+27-->C:\Users\Jon\AndroidStudioProjects\projectHijau\app\src\main\AndroidManifest.xml:19:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->C:\Users\Jon\AndroidStudioProjects\projectHijau\app\src\main\AndroidManifest.xml:21:17-77
+29-->C:\Users\Jon\AndroidStudioProjects\projectHijau\app\src\main\AndroidManifest.xml:21:27-74
+30            </intent-filter>
+31        </activity>
+32        <activity android:name="com.example.crudapp.TampilSemuaPgw" />
+32-->C:\Users\Jon\AndroidStudioProjects\projectHijau\app\src\main\AndroidManifest.xml:24:9-51
+32-->C:\Users\Jon\AndroidStudioProjects\projectHijau\app\src\main\AndroidManifest.xml:24:19-49
+33        <activity android:name="com.example.crudapp.ListView" />
+33-->C:\Users\Jon\AndroidStudioProjects\projectHijau\app\src\main\AndroidManifest.xml:25:9-45
+33-->C:\Users\Jon\AndroidStudioProjects\projectHijau\app\src\main\AndroidManifest.xml:25:19-43
+34        <activity android:name="com.example.crudapp.TampilPegawai" />
+34-->C:\Users\Jon\AndroidStudioProjects\projectHijau\app\src\main\AndroidManifest.xml:26:9-50
+34-->C:\Users\Jon\AndroidStudioProjects\projectHijau\app\src\main\AndroidManifest.xml:26:19-48
+35    </application>
+36
+37</manifest>

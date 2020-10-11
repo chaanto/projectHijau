@@ -8,24 +8,24 @@
         "source": "C:\\Users\\Jon\\AndroidStudioProjects\\projectHijau\\app\\src\\main\\res\\layout\\activity_tampil_semua_pgw.xml"
     },
     {
-        "merged": "C:\\Users\\Jon\\AndroidStudioProjects\\projectHijau\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Jon\\AndroidStudioProjects\\projectHijau\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\Jon\\AndroidStudioProjects\\projectHijau\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\Jon\\AndroidStudioProjects\\projectHijau\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
     },
     {
         "merged": "C:\\Users\\Jon\\AndroidStudioProjects\\projectHijau\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\Jon\\AndroidStudioProjects\\projectHijau\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\Jon\\AndroidStudioProjects\\projectHijau\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\Jon\\AndroidStudioProjects\\projectHijau\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
-    },
-    {
-        "merged": "C:\\Users\\Jon\\AndroidStudioProjects\\projectHijau\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Jon\\AndroidStudioProjects\\projectHijau\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\Jon\\AndroidStudioProjects\\projectHijau\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Jon\\AndroidStudioProjects\\projectHijau\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\Jon\\AndroidStudioProjects\\projectHijau\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_second.xml.flat",
         "source": "C:\\Users\\Jon\\AndroidStudioProjects\\projectHijau\\app\\src\\main\\res\\layout\\fragment_second.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jon\\AndroidStudioProjects\\projectHijau\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Jon\\AndroidStudioProjects\\projectHijau\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\Jon\\AndroidStudioProjects\\projectHijau\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
