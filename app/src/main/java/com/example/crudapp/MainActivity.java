@@ -78,7 +78,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
     //Dibawah ini merupakan perintah untuk Menambahkan Pegawai (CREATE)
-    @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN_MR1)
     private void addEmployee(){
 
         final String name = editTextName.getText().toString().trim();
