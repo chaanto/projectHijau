@@ -8,19 +8,22 @@
 	$r = mysqli_query($con,$sql);
 	$result = array();
 	$response = array();
-    	$response["posisi"] = array();	
-	
- 
+
+
+
 
 	while($row = mysqli_fetch_array($r)){
 
 		$tmp = array();
+		$tmp["id"]= $row[0];
 	        $tmp["posisi"]= $row[1];
-		array_push($response["posisi"], $tmp);
+		$tmp["gajih"]= $row[2];
+		array_push($response, $tmp);
 
 	}
 
-	echo json_encode($response);
+
+	echo json_encode(array('result'=>$response));
 
 	mysqli_close($con);
 ?>

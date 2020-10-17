@@ -42,14 +42,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     //Dibawah ini merupakan perintah untuk mendefinikan View
     private EditText editTextName;
-//    private EditText editTextDesg;
-    private EditText editTextSal;
+    //    private EditText editTextDesg;
+//    private EditText editTextSal;
 
     private Button buttonAdd;
     private Button buttonView;
 
     private Spinner spinnerPosisi;
-    private ArrayList<Posisi> posisiList;
+    ArrayList<String> posisiList = new ArrayList<>();
+//    private ArrayList<Posisi> posisiList;
+    ArrayList<String> gajihList = new ArrayList<>();
     ProgressDialog pDialog;
 
     @Override
@@ -60,10 +62,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         //Inisialisasi dari View
         editTextName = (EditText) findViewById(R.id.editTextName);
 //        editTextDesg = (EditText) findViewById(R.id.editTextDesg);
-        editTextSal = (EditText) findViewById(R.id.editTextSalary);
+//        editTextSal = (EditText) findViewById(R.id.editTextSalary);
 
         spinnerPosisi=(Spinner)findViewById(R.id.spinnerPosisi);
-        posisiList = new ArrayList<Posisi>();
+//        posisiList = new ArrayList<Posisi>();
 
         buttonAdd = (Button) findViewById(R.id.buttonAdd);
         buttonView = (Button) findViewById(R.id.buttonView);
@@ -83,7 +85,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         final String name = editTextName.getText().toString().trim();
 //        final String aaaaaaa = editTextDesg.getText().toString().trim();
         final String desg = spinnerPosisi.getSelectedItem().toString().trim();
-        final String sal = editTextSal.getText().toString().trim();
+//        final String sal = editTextSal.getText().toString().trim();
+        final String sal = gajihList.get((int) spinnerPosisi.getSelectedItemId()).trim();
 
         class AddEmployee extends AsyncTask<Void,Void,String>{
 
@@ -156,12 +159,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     JSONObject jsonObj = new JSONObject(json);
                     if (jsonObj != null) {
                         JSONArray model = jsonObj
-                                .getJSONArray("posisi");
+                                .getJSONArray("result");
 
                         for (int i = 0; i < model.length(); i++) {
                             JSONObject modObj = (JSONObject) model.get(i);
-                            Posisi mod = new Posisi(modObj.getString("posisi"));
+                            String mod = new String(modObj.getString("posisi"));
+                            String model_gaji = new String(modObj.getString("gajih"));
                             posisiList.add(mod);
+                            gajihList.add(model_gaji);
                         }
                     }
 
@@ -189,7 +194,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         List<String> lables = new ArrayList<String>();
 
         for (int i = 0; i < posisiList.size(); i++) {
-            lables.add(posisiList.get(i).getModel());
+            lables.add(posisiList.get(i));
         }
 
         // Creating adapter for spinner
